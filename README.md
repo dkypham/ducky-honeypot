@@ -27,7 +27,7 @@ Create a honeynet on AWS and monitor it using a SIEM (Splunk).
    - Click **Allocate Elastic IP address**.
    - Associate the Elastic IP with your running instance (the first Elastic IP associated with a running instance is free).
 
-6.  Increase Storage to 30 GB:
+6. **Increase Storage to 30 GB**:
    - Go to Elastic Block Store > Volumes in the EC2 dashboard.
    - Select the volume attached to your instance and click Modify Volume.
    - Increase the size to 30 GB (maximum free tier) and save changes.
